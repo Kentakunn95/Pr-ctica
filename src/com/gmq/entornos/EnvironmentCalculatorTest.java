@@ -52,12 +52,16 @@ class EnvironmentCalculatorTest {
 		assertEquals(result,DivResult);
 		
 		//MÁXIMO COMÚN DIVISOR
-		
-		
+		result=new BigDecimal(5);
+		BigDecimal McdResult;
+		McdResult=calculator.mcd(imputx,imputy);
+		assertEquals(result,McdResult);		
 		
 		//MÍNIMO COMÚN MÚLTIPLO
-		
-		
+		result=new BigDecimal(5);
+		BigDecimal McmResult;
+		McmResult=calculator.mcm(imputx,imputy);
+		assertEquals(result,McmResult);
 		
 	}
 
